@@ -1,0 +1,12 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It was the best case scenario for a sorted list.
+
+sort2 uses: Merge Sort
+
+How do you know?: It was the best case scenario for a random list.
+
+sort3 uses: Selection Sort
+
+How do you know?: It was the remaining option and the similar performance
+for the ordered and random list.

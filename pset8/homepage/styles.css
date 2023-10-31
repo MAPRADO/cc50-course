@@ -1,0 +1,324 @@
+/* Para todos os HTML's */
+body {
+  padding-top: 75px;
+  line-height: 3.5;
+}
+
+/* Trecho de código para customizar navbar, todas páginas */
+.navbar-default {
+  background-color: #ffffff;
+  border-color: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #212529;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #8c8c8c;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #FF7848;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-text {
+  color: #8c8c8c;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  line-height: 32px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #FF7848;
+}
+
+.navbar {
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: #ffffff;
+}
+
+a.navbar-brand {
+  height: 63.97px;
+  margin-bottom: -20px;
+  line-height: 0.7;
+  margin-left: 18.5px;
+  display: flex;
+}
+/* Final do trecho de código para customizar navbar, todas páginas */
+
+/* Logo na index */
+.principal .logo-pet .img-fluid {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  vertical-align: center;
+  width: 30em;
+}
+
+/* Trecho de código para alterar botão primário, index */
+.btn-page {
+  color: #FFFFFF;
+  background-color: #FF00FF !important;
+  border-color: #B50798;
+}
+
+.btn-page:hover,
+.btn-page:focus,
+.btn-page:active,
+.btn-page.active,
+.open .dropdown-toggle.btn-page {
+  color: #FFFFFF;
+  background-color: #d615b6 !important;
+  border-color: #B50798;
+}
+
+.btn-page:active,
+.btn-page.active,
+.open .dropdown-toggle.btn-page {
+  background-image: none;
+}
+
+.btn-page.disabled,
+.btn-page[disabled],
+fieldset[disabled] .btn-page,
+.btn-page.disabled:hover,
+.btn-page[disabled]:hover,
+fieldset[disabled] .btn-page:hover,
+.btn-page.disabled:focus,
+.btn-page[disabled]:focus,
+fieldset[disabled] .btn-page:focus,
+.btn-page.disabled:active,
+.btn-page[disabled]:active,
+fieldset[disabled] .btn-page:active,
+.btn-page.disabled.active,
+.btn-page[disabled].active,
+fieldset[disabled] .btn-page.active {
+  background-color: #FF00FF;
+  border-color: #B50798;
+}
+
+.btn-page .badge {
+  color: #FF00FF;
+  background-color: #FFFFFF;
+}
+/* Fim do trecho de código para alterar botão primário, index */
+
+/* Trecho de código geral para index */
+.principal {
+  background-color: #74C3EE;
+}
+
+.frase {
+  background-color: #74C3EE;
+  margin-top: -1px;
+}
+
+.text-center {
+  line-height: 3.5;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.botao-pg {
+  height: 193px;
+  padding-top: 3em;
+  vertical-align: center;
+  background-color: #74C3EE;
+  margin-top: -1px;
+}
+
+.btn-page {
+  font-family: "Verdana";
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  background-color: #EC008C;
+  margin-top: -1px;
+  margin-bottom: 50px;
+}
+
+.btn-page:hover {
+  color: #B50798;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(181, 7, 152, .45);
+}
+
+/* Início do trecho de código para mídias sociais, index e contact */
+ion-icon {
+  font-size: 2rem;
+  color: #FF00FF;
+  padding-left: 0.132em;
+}
+
+ion-icon:hover {
+  color: #B50798;
+}
+
+div.col-md-4 .col-md-1 .centro {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.centro {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+/* Fim do trecho de código para mídias sociais, index e contact */
+
+/* Trecho de código para About Us */
+.card .card-body {
+  background-color: #74C3EE;
+  border-radius: 0.25rem;
+}
+
+.card {
+  border: none;
+  margin-top: 1.25em;
+}
+
+.figure.image {
+  margin-top: 1.25em;
+}
+
+p.card-text {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+a.card-link {
+  color: #8c8c8c;
+}
+
+a.card-link:hover {
+  color: #FF7848;
+}
+
+.about {
+  background-color: #74C3EE;
+}
+
+.pet {
+  background-color: #74C3EE;
+  margin-bottom: 2em;
+}
+
+.pet .cao-pet {
+  width: 30em;
+}
+
+h5.card-title {
+  color: #ffffff;
+}
+
+.figure-caption {
+  color: #ffffff;
+}
+
+/* Trecho de código para My Services */
+.container .titulo .text-center {
+  color: #74C3EE;
+}
+
+.text-center {
+  line-height: 1.5;
+}
+
+.col .mb-4 {
+  background-color: #74C3EE;
+}
+
+.card-img-top {
+  border: 1px solid;
+  border-color: #74C3EE;
+  border-radius: 0.25rem;
+}
+
+.row {
+  margin-bottom: 1em;
+}
+
+.rowHome {
+  margin-bottom: 0;
+}
+
+.rowContact {
+  margin-bottom: 0;
+}
+
+.rowAbout {
+  margin-bottom: 0;
+}
+
+/* Trecho de código para Contact */
+.address {
+  background-color: #74C3EE;
+}
+
+.lead {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.namePet {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.enderecos {
+  font-weight: 350;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.footer .container {
+  background-color: #74C3EE;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+
+.mb-0 {
+  color: #ffffff;
+}
+
+h1.display-4 {
+  color: #ffffff;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}

@@ -1,0 +1,4 @@
+# ignore all .pdf files
+*.pdf
+id_cc50-course
+id_cc50-course.pub

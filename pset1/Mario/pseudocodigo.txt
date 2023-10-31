@@ -1,0 +1,10 @@
+Início
+Solicitar ao usuário a altura da Pirâmide
+Lógica se o valor não estiver entre 1 e 8 ou não inteiro, não prosseguir
+Criar as variáveis que vão definir as linhas "l" e as colunas "c"
+Criar a variáveis que vão imprimir "hxs" "#" e os "dts" "."
+Fazer a lógica para a impressão da quantidades de "#" e "."
+Iterar os valores até atingir o tamanho da pirâmide
+Não esquecer das quebras de linha
+Mudar os "." para espaço em branco (sp)
+Fim

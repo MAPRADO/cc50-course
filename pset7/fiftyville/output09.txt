@@ -1,0 +1,12 @@
++----------+---------------+-----------+
+| activity | license_plate |   name    |
++----------+---------------+-----------+
+| exit     | 5P2BI95       | Patrick   |
+| exit     | 94KL13X       | Ernest    |
+| exit     | 6P58WS2       | Amber     |
+| exit     | 4328GD8       | Danielle  |
+| exit     | G412CB7       | Roger     |
+| exit     | L93JTIZ       | Elizabeth |
+| exit     | 322W7JE       | Russell   |
+| exit     | 0NTHK55       | Evelyn    |
++----------+---------------+-----------+

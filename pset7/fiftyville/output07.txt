@@ -1,0 +1,12 @@
++-----------+-----+------------------+
+|   name    | id  | transaction_type |
++-----------+-----+------------------+
+| Ernest    | 267 | withdraw         |
+| Russell   | 336 | withdraw         |
+| Roy       | 269 | withdraw         |
+| Bobby     | 264 | withdraw         |
+| Elizabeth | 288 | withdraw         |
+| Danielle  | 246 | withdraw         |
+| Madison   | 266 | withdraw         |
+| Victoria  | 313 | withdraw         |
++-----------+-----+------------------+
